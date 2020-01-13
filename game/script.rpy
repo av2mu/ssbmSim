@@ -18,7 +18,6 @@ define scar = Character("Scar")
 define webs = Character("Webs")
 define vish = Character("Vish")
 define toph = Character("Toph")
-define m = Character("Mango")
 
 
 # The game starts here.
