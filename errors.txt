@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 18: Line is indented, but the preceding scene statement statement does not expect a block. Please check this line's indentation.
-    zoom 0.25
+File "game/script.rpy", line 47: Line is indented, but the preceding hide statement statement does not expect a block. Please check this line's indentation.
+    show wizzsweat:
     ^
 
 Ren'Py Version: Ren'Py 7.3.5.606
-Sun Jan 12 23:26:52 2020
+Mon Jan 13 09:15:30 2020

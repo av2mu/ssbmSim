@@ -3,9 +3,9 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 #invites
-define mango = Character("Mango")
+define m = Character("Mango")
 define amsa = Character("Amsa")
-define wizz = Character("Wizzrobe")
+define w = Character("Wizzrobe")
 define plup = Character("Plup")
 define leffen = Character("Leffen")
 define axe = Character("Axe")
@@ -34,15 +34,21 @@ label start:
     # This shows a character sprite. A placeholder is used, but you can
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
-    show mango happy:
+    show mango angry:
         xpos 10 ypos 160
         zoom 0.5
 
+
+
     # These display lines of dialogue.
 
-    m "suh dude"
+    m "i dislike u"
+    hide mango
 
-    m "Once you add a story, pictures, and music, you can release it to the world!"
+    show wizz sweat:
+        xpos -50 ypos 160
+        zoom 0.5
+    w "ok"
 
     # This ends the game.
 
