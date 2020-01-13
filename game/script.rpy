@@ -3,11 +3,11 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 #invites
-define m = Character("Mango")
+define mango = Character("Mango")
 define amsa = Character("Amsa")
-define w = Character("Wizzrobe")
+define wizz = Character("Wizzrobe")
 define plup = Character("Plup")
-define leffen = Character("Leffen")
+define leff = Character("Leffen")
 define axe = Character("Axe")
 define hbox = Character("Hungrybox")
 
