@@ -23,6 +23,16 @@ define toph = Character("Toph")
 # The game starts here.
 
 label start:
+    transform bounce:
+        pause .15
+        yoffset 0
+        easein .175 yoffset -10
+        easeout .175 yoffset 0
+        easein .175 yoffset -4
+        easeout .175 yoffset 0
+        yoffset 0
+
+
 
     # Show a background. This uses a placeholder by default, but you can
     # add a file (named either "bg room.png" or "bg room.jpg") to the
@@ -34,21 +44,29 @@ label start:
     # This shows a character sprite. A placeholder is used, but you can
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
-    show mango angry:
+
+
+    show mango happy:
         xpos 10 ypos 160
         zoom 0.5
+    mango "what's up"
+
+
+    show mango angry at bounce:
+        xpos 10 ypos 160
+        zoom 0.5
+    mango "ay woah"
 
 
 
     # These display lines of dialogue.
 
-    m "i dislike u"
     hide mango
 
-    show wizz sweat:
+    show wizz sweat at bounce:
         xpos -50 ypos 160
         zoom 0.5
-    w "ok"
+    wizz "ok"
 
     # This ends the game.
 
