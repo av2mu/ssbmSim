@@ -1,4 +1,5 @@
 # ssbmSim
-gamer game made by the boys and gals in the content creator discord
+summit 9 here we come
 
+by the content creator discord
 https://discord.gg/ccEtDNs
