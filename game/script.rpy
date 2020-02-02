@@ -1,21 +1,4 @@
 ﻿# The script of the game goes in this file.
-from repeatingtimer import RepeatingTimer
-from threading import Timer
-def img_up():
-def img_down():
-def cncl_down():
-    down_tmr.cancel()
-def cncl_up():
-    up_tmr.cancel()
-def bounce():
-    down_tmr = RepeatingTimer(.01, img_down)
-    up_tmr = RepeatingTimer(.01, img_up)
-    down_cncl_tmr = Timer(.25, cncl_down)
-    up_cncl_tmr = Timer(.25, cncl_down)
-    down_tmr.start()
-    up_tmr.start()
-    down_cncl_tmr.start()
-    up_cncl_tmr.start()
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 #invites
