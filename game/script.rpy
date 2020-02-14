@@ -239,11 +239,113 @@ label start:
     narr "Finally, having assessed what- or rather, who- he's seeing, Axe gives you a warm welcome."
 
     show axe happy at bounce:
-        xpos 10, ypos 160
+        xpos 10 ypos 160
         zoom 0.5
     axe "Hey, man! What are you do--"
 
-    show Zain
+    show zain happy at bounce:
+        xpos 10 ypos 160
+        zoom 0.5
+    zain "AXE, watch it!"
+    narr "The Pikachu main turns back around just to see Amso has taken his last stock and won the game while he was busy greeting you."
+    show amsa happy at bounce:
+        xpos 10 ypos 160
+        zoom 0.5
+    amsa "かったー！٩(ˊᗜˋ*)و✧*｡"
+
+    show axe happy at bounce:
+        xpos 10 ypos 160
+        zoom 0.5
+    axe "What?! Dude, not fair!"
+
+    show zain happy at bounce:
+        xpos 10 ypos 160
+        zoom 0.5
+    zain "That was game 5 of the set, too!"
+
+    narr "You can feel your heart sink deep in your chest."
+    pov "...S-Sorry, didn't mean to interrupt."
+    pov "I just thought I'd introduce myself. I-I'm [povname], one of the Smash Summit VIPs."
+
+    show axe happy at bounce:
+        xpos 10 ypos 160
+        zoom 0.5
+    axe "Oh dude, no problem! It's nice to meet you!"
+
+    show amsa happy at bounce:
+        xpos 10 ypos 160
+        zoom 0.5
+    amsa "こんばんわ！はじめました. ( ´ ▽ ` )ﾉ"
+
+    show zain happy at boucne:
+        xpos 10 ypos 160
+        zoom 0.5
+    zain "Cool. Zain, pleasure to meet you."
+
+    narr "You sit down with the three players and, after asking if it's fine with them, decide to spectate the next match."
+    narr "You maintain a pleasant small talk, not wanting to be the fourth wheel, before Axe looks down at his phone and gasps"
+
+    show axe happy at bounce:
+        xpos 10 ypos 160
+        zoom 0.5
+    axe "Oh dang, guys, look at the time! We should probably get some sleep for Summit tommorow."
+
+    show zain happy at bounce:
+        xpos 10 ypos 160
+        zoom 0.5
+    zain "*sighs* Truuue. GGs, Amsa."
+
+    show amsa happy at bounce:
+        xpos 10 ypos 160
+        zoom 0.5
+    amsa "どうも.じゃあまたね! (´・ω・)ﾉ"
+
+    pov "Yeah, I guess I'll see you guys tommorow!"
+
+    show axe happy at bounce:
+        xpos 10 ypos 160
+        zoom 0.5
+    axe "Bye, [povname]!"
+
+    show zain happy at bounce:
+        xpos 10 ypos 160
+        zoom 0.5
+    zain "Yeah, see you around."
+
+    narr "You head back towards your room smiling, satisfied that you've already gotten to hang out with so many Smash legends."
+
+    #-------------------------PENTHOUSE--------------------------------
+    narr "As you turn the corner though, you see a number of people pour out of one of the rooms."
+    narr "It peaked your interest, so you decide to stop by before seeing Hungrybox step out of that very same room."
+    narr "You saw him bid the people goodbye, turn, and... oh gosh, he's heading your way!"
+    pov "Hey... You're Hungrybox"
+
+    show hbox happy at bounce:
+        xpos 10 ypos 160
+        zoom 0.5
+    hbox "In the flesh."
+
+    narr "He gies you a big, warm smile and stops to stand across from you, waiting for you to say or do something. You feel nervous in his presence."
+    pov "I-I'm [povname], I'm going to be at Summit tommorow... I'm, uh, I'm a VIP."
+    show hbox happy at bounce:
+        xpos 10 ypos 160
+        zoom 0.5
+    hbox "Oh yeah, cool. So, you play Melee at all?"
+    pov "I go to locals-- I mean... I'm not amazing or anything, but... yeah"
+    narr "HungryBox shifts his weight and puts his hands in his pockets. You're unsure if he's interested in talking or if he desperately wants to leave."
+    pov "You.. uh, excited for Summit?"
+    narr "You feel like a moron for asking such a basic question. HungryBox chuckles."
+    show hbox happy at bounce:
+        xpos 10 ypos 160
+        zoom 0.5
+    hbox "It's one of my favorite events. I'm gonna win it this time, though!"
+    narr "He gives you a little charming wink."
+    show hbox happy at bounce:
+        xpos 10 ypos 160
+        zoom 0.5
+    hbox "I gotta head to my room and catch some sleep. See you tommorow?"
+    pov "Of course!!"
+    narr "You're worried yo say it a little to enthusiastically, but HungryBox smiles warmly, giving you a little wave goodbye, and then walks down the hall."
     #---------------------------------------------------------------------
     show mango happy:
         xpos 10 ypos 160
