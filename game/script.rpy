@@ -110,21 +110,24 @@ label start:
 
     pov "Totally, see ya."
     narr "Plup gets into the elevator and gives you an awkward smile. You just stand there, dumbfounded, as the door closes."
+
+    hide plup
+
     pov "(Now what do I do?)"
     narr "You look around the large lobby, see a neon sign for the hotel bar, and decide to check it out."
 
     #BAR
 
     narr "You step into the rather luxurious looking hotel bar, and awkwardly take a seat, gesturing to the barman that you'd like to order something."
-    narr "Taking a sip of your beer, you scan the room, and before long your eyes lock on a particular pair, having an arguement in the corner."
+    narr "Taking a sip of your beer, you scan the room, and before long your eyes lock on a particular pair, having an argument in the corner."
 
     show mango happy at bounce:
         xpos 10 ypos 160
         zoom 0.5
 
     show leff happy at bounce:
-        xpos -50 ypos 160
-        zoom 0.5
+        xpos -1000 ypos 75
+
     leff "Mango, you DO NOT know what your're talking about!"
     leff "How could you even THINK Marth-Fox is anything besides 60-40! Let's be real, Marth is just a Spacie counterpick."
 
@@ -139,8 +142,8 @@ label start:
     pov "Uh... hey guys. My name's [povname], I'm a VIP invite for the Summit tommorow. Nice to meet you two, I'm a big fan!"
 
     show leff happy at bounce:
-        xpos -50 ypos 160
-        zoom 0.5
+        xpos -1000 ypos 75
+
     leff "Oh... hey."
 
     show mango happy at bounce:
@@ -151,8 +154,8 @@ label start:
     narr "You smile at both players, and before you can add anything else, their conversation continues."
 
     show leff happy at bounce:
-        xpos -50 ypos 160
-        zoom 0.5
+        xpos -1000 ypos 75
+
     leff "...So anyway, Marth is bullshit."
 
     narr "Mango roared with laughter"
@@ -163,12 +166,13 @@ label start:
     mango "Well, we can both agree that Zain is a dash-dancing little bitch, eh, Leff?"
 
     show leff happy at bounce:
-        xpos -50 ypos 160
-        zoom 0.5
+        xpos -1000 ypos 75
+
     leff "... I'll cheers to that."
 
     narr "As the two players finish their drinks, you decide it'd be awkward to hang around any longer, so you pay tour tab and leave, heading back to the lobby."
-
+    hide leff
+    hide mango
     #----ROOF------
     narr "Now, where to next..."
     narr "You figure after a good beer there's nothing like some fresh air, so you decide to head to the hotel rooftop."
@@ -176,7 +180,7 @@ label start:
     narr "..."
     narr "The view is amazing, and the crisp LA air fills your lungs."
     narr "Ouch."
-    narr "As you cough, you suddenly notice a long haired gentelman taring out over the city skyline."
+    narr "As you cough, you suddenly notice a long haired gentleman taring out over the city skyline."
     narr "Not having noticed him before, you're caught aback, and decide to make contact."
     pov "...H...Hello"
 

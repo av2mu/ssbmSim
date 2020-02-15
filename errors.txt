@@ -2,33 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 28: expected statement.
-    yoffset 0
+File "game/script.rpy", line 175: expected statement.
+    hid mango
              ^
-
-File "game/script.rpy", line 29: expecting name after dot.
-    easein .175 yoffset -10
-            ^
-
-File "game/script.rpy", line 30: expecting name after dot.
-    easeout .175 yoffset 0
-             ^
-
-File "game/script.rpy", line 31: expecting name after dot.
-    easein .175 yoffset -4
-            ^
-
-File "game/script.rpy", line 32: expecting name after dot.
-    easeout .175 yoffset 0
-             ^
-
-File "game/script.rpy", line 33: expected statement.
-    yoffset 0
-             ^
-
-File "game/script.rpy", line 34: expected statement.
-    repeat
-          ^
 
 Ren'Py Version: Ren'Py 7.3.5.606
-Sat Feb 01 19:36:43 2020
+Sat Feb 15 11:41:41 2020
