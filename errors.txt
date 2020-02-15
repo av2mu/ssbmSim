@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 175: expected statement.
-    hid mango
-             ^
+File "game/script.rpy", line 131: Line is indented, but the preceding show statement statement does not expect a block. Please check this line's indentation.
+    xpos 10 ypos 0
+    ^
 
 Ren'Py Version: Ren'Py 7.3.5.606
-Sat Feb 15 11:41:41 2020
+Sat Feb 15 12:56:17 2020

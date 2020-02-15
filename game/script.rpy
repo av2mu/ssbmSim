@@ -35,6 +35,8 @@ label start:
         easein .175 yoffset -4
         easeout .175 yoffset 0
         yoffset 0
+    transform xflip:
+     xzoom -1
 
 
 
@@ -122,18 +124,17 @@ label start:
     narr "Taking a sip of your beer, you scan the room, and before long your eyes lock on a particular pair, having an argument in the corner."
 
     show mango happy at bounce:
-        xpos 10 ypos 160
-        zoom 0.5
+        xpos 10 ypos 0
 
-    show leff happy at bounce:
-        xpos -1000 ypos 75
+
+    show leff happy at bounce, xflip:
+        xpos 10 ypos 0
 
     leff "Mango, you DO NOT know what your're talking about!"
     leff "How could you even THINK Marth-Fox is anything besides 60-40! Let's be real, Marth is just a Spacie counterpick."
 
     show mango happy at bounce:
         xpos 10 ypos 160
-        zoom 0.5
     mango "Hey, wooooaaaah! Chill out, Leff... if that even is your real name!"
 
     narr "You can tell by the way the conversation is going they've been drinking quite a bit and have been at this for a while."
@@ -141,14 +142,13 @@ label start:
     narr "Finally, having made it all the way to the corner of the bar, you see both players turn to you, awaying some kind of introduction."
     pov "Uh... hey guys. My name's [povname], I'm a VIP invite for the Summit tommorow. Nice to meet you two, I'm a big fan!"
 
-    show leff happy at bounce:
-        xpos -1000 ypos 75
+    show leff happy at bounce, xflip:
+        xpos 10 ypos 0
 
     leff "Oh... hey."
 
     show mango happy at bounce:
         xpos 10 ypos 160
-        zoom 0.5
     mango "Wasshup dawg!"
 
     narr "You smile at both players, and before you can add anything else, their conversation continues."
